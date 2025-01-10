@@ -1,5 +1,5 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import heroImg from "../assets/imgs/hero/lawHero.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";

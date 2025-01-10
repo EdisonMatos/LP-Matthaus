@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.webp";
+import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
 import logo from "../assets/imgs/logo/logoLp.png";
 import { infos } from "./content";
 
