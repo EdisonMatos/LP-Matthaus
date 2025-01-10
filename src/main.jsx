@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
-      <Route path="/lp01" element={<Lp01 />} />
+      {/* <Route path="/lp01" element={<Lp01 />} /> */}
       <Route path="/bpc-loas" element={<Lp02 />} />
       <Route path="/penal" element={<Lp03 />} />
     </Routes>
