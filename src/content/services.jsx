@@ -115,13 +115,13 @@ const services = {
         buttonLink: whatsappContactLink,
       },
       service7: {
-        name: "Direito Previdenciário",
+        name: "Direito Trabalhista",
         img: {
           img: lawService7,
         },
         cardSubtitle: "Sobre o que se trata:",
         cardDescription:
-          "Busca de benefícios para segurados e suporte para empresas.",
+          "Defesa em conflitos trabalhistas para empresas e trabalhadores.",
         buttonLink: whatsappContactLink,
       },
       service8: {
