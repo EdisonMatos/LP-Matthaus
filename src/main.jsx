@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/" element={<Index />} />
       {/* <Route path="/lp01" element={<Lp01 />} /> */}
       <Route path="/bpc-loas" element={<Lp02 />} />
-      <Route path="/penal" element={<Lp03 />} />
+      <Route path="/flagrante-custodia" element={<Lp03 />} />
     </Routes>
   </Router>
 );
