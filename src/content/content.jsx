@@ -203,9 +203,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Trabalhista",
-        subtitle:
-          "Defesa em conflitos trabalhistas para empresas e trabalhadores.",
+        title: "Direito Previdenciário",
+        subtitle: "Busca de benefícios para segurados e suporte para empresas.",
         description: (
           <div>
             A_Definir
@@ -226,12 +225,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            class="lucide lucide-hourglass"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
