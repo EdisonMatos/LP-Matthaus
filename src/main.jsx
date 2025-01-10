@@ -6,12 +6,14 @@ import "./index.css";
 import "./styles/backgrounds.css";
 import "./styles/shapeDivs.css";
 import Lp01 from "./pages/Lp01.jsx";
+import Lp02 from "./pages/Lp02.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
-      <Route path="/aposentadoria" element={<Lp01 />} />
+      <Route path="/teste" element={<Lp01 />} />
+      <Route path="/aposentadoria" element={<Lp02 />} />
     </Routes>
   </Router>
 );

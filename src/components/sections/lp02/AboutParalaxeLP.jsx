@@ -1,5 +1,5 @@
 import content from "../../../content/content";
-import contentLp01 from "../../../content/contentLp01";
+import contentLp02 from "../../../content/contentLp02";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
@@ -11,7 +11,7 @@ export default function AboutParalaxeLP() {
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
       style={{
-        backgroundImage: `url(${contentLp01.about.bgImg})`,
+        backgroundImage: `url(${contentLp02.about.bgImg})`,
         backgroundRepeat: "no-repeat",
       }}
       id="contact"
@@ -25,8 +25,8 @@ export default function AboutParalaxeLP() {
                   {/* Logo */}
 
                   {/* <img
-                    src={contentLp01.about.logo.logoImg}
-                    alt={contentLp01.about.logo.alt}
+                    src={contentLp02.about.logo.logoImg}
+                    alt={contentLp02.about.logo.alt}
                     className="w-[90%] desktop1:w-[70%]"
                   /> */}
 
@@ -48,24 +48,24 @@ export default function AboutParalaxeLP() {
                 <div className="desktop1:w-[100%] ">
                   <SectionHeader
                     className="text-center"
-                    miniTitle={contentLp01.about.sectionHeader.miniTag}
-                    sectionHeaderTitle={contentLp01.about.sectionHeader.title}
+                    miniTitle={contentLp02.about.sectionHeader.miniTag}
+                    sectionHeaderTitle={contentLp02.about.sectionHeader.title}
                     color=""
                     type="article"
                   />
                   <MotionDivDownToUp>
                     <p className="font-mainFont mb-[36px]">
-                      {contentLp01.about.paragraph}
+                      {contentLp02.about.paragraph}
                     </p>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="w-full">
                       <Button
                         aria-label={
-                          contentLp01.hero.textArea.ctaButtonAriaLabel
+                          contentLp02.hero.textArea.ctaButtonAriaLabel
                         }
-                        label={contentLp01.about.buttonLabel}
-                        buttonLink={contentLp01.links.ctaWhatsapp}
+                        label={contentLp02.about.buttonLabel}
+                        buttonLink={contentLp02.links.ctaWhatsapp}
                         animation
                         className=""
                         icon={
