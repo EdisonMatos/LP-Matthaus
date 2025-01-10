@@ -1,10 +1,10 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
+import bgImg from "../assets/imgs/hero/bgHeroLp03.webp";
 import logo from "../assets/imgs/logo/logoLp.png";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
 
-const contentLp02 = {
+const contentLp03 = {
   infos: {
     title: "A_Definir",
     description: "A_Definir",
@@ -185,4 +185,4 @@ const contentLp02 = {
   },
 };
 
-export default contentLp02;
+export default contentLp03;

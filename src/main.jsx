@@ -7,13 +7,15 @@ import "./styles/backgrounds.css";
 import "./styles/shapeDivs.css";
 import Lp01 from "./pages/Lp01.jsx";
 import Lp02 from "./pages/Lp02.jsx";
+import Lp03 from "./pages/Lp03.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/teste" element={<Lp01 />} />
-      <Route path="/aposentadoria" element={<Lp02 />} />
+      <Route path="/flagrante-custodia" element={<Lp02 />} />
+      <Route path="/bpc-loas" element={<Lp03 />} />
     </Routes>
   </Router>
 );
