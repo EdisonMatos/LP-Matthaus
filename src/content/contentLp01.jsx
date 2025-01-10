@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir",
+    title: "A_Definir1",
     description: "A_Definir",
     keywords: "A_Definir",
   },
