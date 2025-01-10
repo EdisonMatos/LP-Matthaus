@@ -2,14 +2,14 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../animation/MotionDivDownToUp";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
-import contetLp01 from "../../../content/contentLp01";
+import contentLp01 from "../../../content/contentLp01";
 
 export default function HeroLP() {
   return (
     <div
       className="w-full bg-top bg-no-repeat bg-cover font-mainFont"
       style={{
-        backgroundImage: `url(${contetLp01.hero.bgImg})`,
+        backgroundImage: `url(${contentLp01.hero.bgImg})`,
       }}
     >
       <SectionArea
@@ -22,9 +22,9 @@ export default function HeroLP() {
               <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                 <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
                   <img
-                    src={contetLp01.hero.logo.logoImg}
-                    alt={contetLp01.hero.logo.alt}
-                    className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[360px]"
+                    src={contentLp01.hero.logo.logoImg}
+                    alt={contentLp01.hero.logo.alt}
+                    className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[270px]"
                   />
                 </MotionDivDownToUp>
                 {/* <MotionDivDownToUp>
@@ -36,22 +36,22 @@ export default function HeroLP() {
                   </MotionDivDownToUp> */}
                 <MotionDivDownToUp>
                   <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[32px] phone3:leading-[40px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
-                    {contetLp01.hero.textArea.title}
+                    {contentLp01.hero.textArea.title}
                   </div>
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
                   <div className="flex justify-center text-center text-lighter desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                     <p className="mb-[40px] opacity-100 [text-shadow:_2px_2px_1px_rgb(0_0_0_/_100%)]">
-                      {contetLp01.hero.textArea.subtitle}
+                      {contentLp01.hero.textArea.subtitle}
                     </p>
                   </div>
                 </MotionDivDownToUp>
                 <div className="w-full phone2:w-full tablet2:w-auto">
                   <div className="flex justify-center w-full desktop1:justify-start">
                     <Button
-                      aria-label={contetLp01.hero.textArea.ctaButtonAriaLabel}
-                      label={contetLp01.hero.textArea.buttonLabel}
-                      buttonLink={contetLp01.links.ctaWhatsapp}
+                      aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
+                      label={contentLp01.hero.textArea.buttonLabel}
+                      buttonLink={contentLp01.links.ctaWhatsapp}
                       animation
                       className="w-[100%]"
                       icon={

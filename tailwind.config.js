@@ -11,7 +11,7 @@ export const theme = {
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",
       darker: "#000000",
-      lpTitle: "#38ff8b",
+      lpTitle: "#DBB14C",
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade

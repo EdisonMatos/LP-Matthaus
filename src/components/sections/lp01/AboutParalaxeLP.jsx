@@ -1,4 +1,4 @@
-import contetLp01 from "../../../content/contentLp01";
+import contentLp01 from "../../../content/contentLp01";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
@@ -10,7 +10,7 @@ export default function AboutParalaxeLP() {
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
       style={{
-        backgroundImage: `url(${contetLp01.about.bgImg})`,
+        backgroundImage: `url(${contentLp01.about.bgImg})`,
         backgroundRepeat: "no-repeat",
       }}
       id="contact"
@@ -22,30 +22,32 @@ export default function AboutParalaxeLP() {
               <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
                 <MotionDivDownToUp className="flex justify-center">
                   <img
-                    src={contetLp01.about.logo.logoImg}
-                    alt={contetLp01.about.logo.alt}
+                    src={contentLp01.about.logo.logoImg}
+                    alt={contentLp01.about.logo.alt}
                     className="w-[90%] desktop1:w-[70%]"
                   />
                 </MotionDivDownToUp>
                 <div className="desktop1:w-[60%]">
                   <SectionHeader
                     className="text-center"
-                    miniTitle={contetLp01.about.sectionHeader.miniTag}
-                    sectionHeaderTitle={contetLp01.about.sectionHeader.title}
+                    miniTitle={contentLp01.about.sectionHeader.miniTag}
+                    sectionHeaderTitle={contentLp01.about.sectionHeader.title}
                     color=""
                     type="article"
                   />
                   <MotionDivDownToUp>
                     <p className="font-mainFont mb-[36px]">
-                      {contetLp01.about.paragraph}
+                      {contentLp01.about.paragraph}
                     </p>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="w-full">
                       <Button
-                        aria-label={contetLp01.hero.textArea.ctaButtonAriaLabel}
-                        label={contetLp01.about.buttonLabel}
-                        buttonLink={contetLp01.links.ctaWhatsapp}
+                        aria-label={
+                          contentLp01.hero.textArea.ctaButtonAriaLabel
+                        }
+                        label={contentLp01.about.buttonLabel}
+                        buttonLink={contentLp01.links.ctaWhatsapp}
                         animation
                         className=""
                         icon={

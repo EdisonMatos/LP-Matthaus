@@ -1,4 +1,4 @@
-import contetLp01 from "../../../content/contentLp01";
+import contentLp01 from "../../../content/contentLp01";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
@@ -10,7 +10,7 @@ export default function AboutParalaxeLP() {
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
       style={{
-        backgroundImage: `url(${contetLp01.cta.bgImg})`,
+        backgroundImage: `url(${contentLp01.cta.bgImg})`,
         backgroundRepeat: "no-repeat",
       }}
       id="contact"
@@ -21,16 +21,16 @@ export default function AboutParalaxeLP() {
             <SectionWrapper>
               <SectionHeader
                 className="text-center"
-                miniTitle={contetLp01.cta.sectionHeader.miniTag}
-                sectionHeaderTitle={contetLp01.cta.sectionHeader.title}
-                sectionHeaderSubtitle={contetLp01.cta.sectionHeader.subtitle}
+                miniTitle={contentLp01.cta.sectionHeader.miniTag}
+                sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
+                sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
                 color=""
               />
               <MotionDivDownToUp>
                 <Button
-                  aria-label={contetLp01.hero.textArea.ctaButtonAriaLabel}
-                  label={contetLp01.cta.buttonLabel}
-                  buttonLink={contetLp01.links.ctaWhatsapp}
+                  aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
+                  label={contentLp01.cta.buttonLabel}
+                  buttonLink={contentLp01.links.ctaWhatsapp}
                   animation
                   icon={
                     <svg
