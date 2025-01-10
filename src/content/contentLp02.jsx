@@ -6,9 +6,11 @@ const currentYear = new Date().getFullYear();
 
 const contentLp02 = {
   infos: {
-    title: "A_Definir2",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title: "Dr. Matthäus Lima - Especialista em Direito Previdenciário",
+    description:
+      "Dr. Matthäus Lima é um especialista em direito previdenciário, oferecendo consultoria e assessoria para questões relacionadas a benefícios do BPC/LOAS, aposentadorias, pensões e outros direitos previdenciários.",
+    keywords:
+      "Direito Previdenciário, Consultoria Previdenciária, Assessoria Jurídica Previdenciária, Advogado Previdenciário Matthäus Lima, Benefício de Prestação Continuada, BPC/LOAS, Aposentadorias, Pensões, Direitos Previdenciários",
   },
   hero: {
     bgImg: bgImg,
