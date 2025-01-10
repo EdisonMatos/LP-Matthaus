@@ -162,8 +162,9 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Nossas áreas de expertise",
-      subtitle: "Soluções jurídicas especializadas para cada necessidade.",
+      title: "Equipe especializada com atuação em diversas áreas ",
+      subtitle:
+        "Contamos com profissionais altamente capacitados, prontos para oferecer soluções jurídicas precisas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
