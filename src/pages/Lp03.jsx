@@ -1,4 +1,5 @@
 import BackToTopButton from "../components/interactives/BackToTopButton";
+import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import LPFloatingWhatsappButton from "../components/interactives/LPFloatingWhatsappButton";
 import AboutParalaxeLP from "../components/sections/lp03/AboutParalaxeLP";
 import ContactLP from "../components/sections/lp03/ContactLP";
@@ -45,7 +46,7 @@ export default function Lp03() {
       <CtaLP />
       <ContactLP />
       <FooterLP />
-      <LPFloatingWhatsappButton />
+      <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
   );
